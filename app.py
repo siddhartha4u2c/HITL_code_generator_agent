@@ -8,9 +8,9 @@ from langgraph.types import Command, interrupt
 from langgraph.checkpoint.memory import MemorySaver
 
 
-# ---------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # LangGraph workflow (same logic as your notebook, unchanged)
-# ---------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 class CodingAssistantState(TypedDict):
     task: str
     code: str
