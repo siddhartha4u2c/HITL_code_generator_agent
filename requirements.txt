@@ -1,7 +1,5 @@
-gradio
-ultralytics
-opencv-python-headless
-numpy
-torch
-torchvision
-Pillow
+streamlit
+langchain
+langchain-openai
+langchain-core
+langgraph
